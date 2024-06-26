@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vilkku/coding/cpp/Supernova-Engine
+CMAKE_SOURCE_DIR = /home/vilkku/coding/cpp/SupernovaEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vilkku/coding/cpp/Supernova-Engine/build
+CMAKE_BINARY_DIR = /home/vilkku/coding/cpp/SupernovaEngine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vilkku/coding/cpp/Supernova-Engine/build/CMakeFiles /home/vilkku/coding/cpp/Supernova-Engine/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vilkku/coding/cpp/SupernovaEngine/build/CMakeFiles /home/vilkku/coding/cpp/SupernovaEngine/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vilkku/coding/cpp/Supernova-Engine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vilkku/coding/cpp/SupernovaEngine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

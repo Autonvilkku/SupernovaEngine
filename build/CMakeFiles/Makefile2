@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vilkku/coding/cpp/Supernova-Engine
+CMAKE_SOURCE_DIR = /home/vilkku/coding/cpp/SupernovaEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vilkku/coding/cpp/Supernova-Engine/build
+CMAKE_BINARY_DIR = /home/vilkku/coding/cpp/SupernovaEngine/build
 
 #=============================================================================
 # Directory level rules for the build root directory

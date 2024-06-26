@@ -28,8 +28,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/vilkku/coding/cpp/Supernova-Engine/build",
-		"source" : "/home/vilkku/coding/cpp/Supernova-Engine"
+		"build" : "/home/vilkku/coding/cpp/SupernovaEngine/build",
+		"source" : "/home/vilkku/coding/cpp/SupernovaEngine"
 	},
 	"version" : 
 	{

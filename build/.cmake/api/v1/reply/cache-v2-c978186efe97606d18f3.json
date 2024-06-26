@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/vilkku/coding/cpp/Supernova-Engine/build"
+			"value" : "/home/vilkku/coding/cpp/SupernovaEngine/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/vilkku/coding/cpp/Supernova-Engine/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/vilkku/coding/cpp/SupernovaEngine/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -615,7 +615,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/vilkku/coding/cpp/Supernova-Engine"
+			"value" : "/home/vilkku/coding/cpp/SupernovaEngine"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1167,7 +1167,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/vilkku/coding/cpp/Supernova-Engine/build"
+			"value" : "/home/vilkku/coding/cpp/SupernovaEngine/build"
 		},
 		{
 			"name" : "Project_IS_TOP_LEVEL",
@@ -1191,7 +1191,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/vilkku/coding/cpp/Supernova-Engine"
+			"value" : "/home/vilkku/coding/cpp/SupernovaEngine"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
