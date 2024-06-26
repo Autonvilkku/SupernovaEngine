@@ -28,7 +28,5 @@ pkg_search_module(GLFW REQUIRED glfw3)
 find_path(GLM_INCLUDE_DIR glm/glm.hpp)
 include_directories("/usr/include")
 
-
-
 # Link the libraries
 target_link_libraries(Supernova ${OPENGL_LIBRARIES} ${GLFW_LIBRARIES})
