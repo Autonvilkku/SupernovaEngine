@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/vilkku/coding/cpp/SupernovaEngine/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/Supernova.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,8 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean:
+clean: CMakeFiles/Supernova.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Supernova.dir
+
+# All Build rule for target.
+CMakeFiles/Supernova.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supernova.dir/build.make CMakeFiles/Supernova.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supernova.dir/build.make CMakeFiles/Supernova.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vilkku/coding/cpp/SupernovaEngine/build/CMakeFiles --progress-num=1,2,3,4 "Built target Supernova"
+.PHONY : CMakeFiles/Supernova.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Supernova.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vilkku/coding/cpp/SupernovaEngine/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Supernova.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vilkku/coding/cpp/SupernovaEngine/build/CMakeFiles 0
+.PHONY : CMakeFiles/Supernova.dir/rule
+
+# Convenience name for target.
+Supernova: CMakeFiles/Supernova.dir/rule
+.PHONY : Supernova
+
+# clean rule for target.
+CMakeFiles/Supernova.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supernova.dir/build.make CMakeFiles/Supernova.dir/clean
+.PHONY : CMakeFiles/Supernova.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

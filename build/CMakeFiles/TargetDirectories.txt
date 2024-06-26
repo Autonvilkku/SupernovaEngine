@@ -1,2 +1,3 @@
+/home/vilkku/coding/cpp/SupernovaEngine/build/CMakeFiles/Supernova.dir
 /home/vilkku/coding/cpp/SupernovaEngine/build/CMakeFiles/edit_cache.dir
 /home/vilkku/coding/cpp/SupernovaEngine/build/CMakeFiles/rebuild_cache.dir

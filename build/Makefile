@@ -116,6 +116,91 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named Supernova
+
+# Build rule for target.
+Supernova: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Supernova
+.PHONY : Supernova
+
+# fast build rule for target.
+Supernova/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supernova.dir/build.make CMakeFiles/Supernova.dir/build
+.PHONY : Supernova/fast
+
+src/core/engine.o: src/core/engine.cpp.o
+.PHONY : src/core/engine.o
+
+# target to build an object file
+src/core/engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supernova.dir/build.make CMakeFiles/Supernova.dir/src/core/engine.cpp.o
+.PHONY : src/core/engine.cpp.o
+
+src/core/engine.i: src/core/engine.cpp.i
+.PHONY : src/core/engine.i
+
+# target to preprocess a source file
+src/core/engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supernova.dir/build.make CMakeFiles/Supernova.dir/src/core/engine.cpp.i
+.PHONY : src/core/engine.cpp.i
+
+src/core/engine.s: src/core/engine.cpp.s
+.PHONY : src/core/engine.s
+
+# target to generate assembly for a file
+src/core/engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supernova.dir/build.make CMakeFiles/Supernova.dir/src/core/engine.cpp.s
+.PHONY : src/core/engine.cpp.s
+
+src/graphics/graphics.o: src/graphics/graphics.cpp.o
+.PHONY : src/graphics/graphics.o
+
+# target to build an object file
+src/graphics/graphics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supernova.dir/build.make CMakeFiles/Supernova.dir/src/graphics/graphics.cpp.o
+.PHONY : src/graphics/graphics.cpp.o
+
+src/graphics/graphics.i: src/graphics/graphics.cpp.i
+.PHONY : src/graphics/graphics.i
+
+# target to preprocess a source file
+src/graphics/graphics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supernova.dir/build.make CMakeFiles/Supernova.dir/src/graphics/graphics.cpp.i
+.PHONY : src/graphics/graphics.cpp.i
+
+src/graphics/graphics.s: src/graphics/graphics.cpp.s
+.PHONY : src/graphics/graphics.s
+
+# target to generate assembly for a file
+src/graphics/graphics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supernova.dir/build.make CMakeFiles/Supernova.dir/src/graphics/graphics.cpp.s
+.PHONY : src/graphics/graphics.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supernova.dir/build.make CMakeFiles/Supernova.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supernova.dir/build.make CMakeFiles/Supernova.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supernova.dir/build.make CMakeFiles/Supernova.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +209,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Supernova"
+	@echo "... src/core/engine.o"
+	@echo "... src/core/engine.i"
+	@echo "... src/core/engine.s"
+	@echo "... src/graphics/graphics.o"
+	@echo "... src/graphics/graphics.i"
+	@echo "... src/graphics/graphics.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/vilkku/coding/cpp/SupernovaEngine/build",
+  "command": "/usr/bin/g++  -I/home/vilkku/coding/cpp/SupernovaEngine/include -g -std=gnu++11 -o CMakeFiles/Supernova.dir/src/core/engine.cpp.o -c /home/vilkku/coding/cpp/SupernovaEngine/src/core/engine.cpp",
+  "file": "/home/vilkku/coding/cpp/SupernovaEngine/src/core/engine.cpp",
+  "output": "CMakeFiles/Supernova.dir/src/core/engine.cpp.o"
+},
+{
+  "directory": "/home/vilkku/coding/cpp/SupernovaEngine/build",
+  "command": "/usr/bin/g++  -I/home/vilkku/coding/cpp/SupernovaEngine/include -g -std=gnu++11 -o CMakeFiles/Supernova.dir/src/graphics/graphics.cpp.o -c /home/vilkku/coding/cpp/SupernovaEngine/src/graphics/graphics.cpp",
+  "file": "/home/vilkku/coding/cpp/SupernovaEngine/src/graphics/graphics.cpp",
+  "output": "CMakeFiles/Supernova.dir/src/graphics/graphics.cpp.o"
+},
+{
+  "directory": "/home/vilkku/coding/cpp/SupernovaEngine/build",
+  "command": "/usr/bin/g++  -I/home/vilkku/coding/cpp/SupernovaEngine/include -g -std=gnu++11 -o CMakeFiles/Supernova.dir/src/main.cpp.o -c /home/vilkku/coding/cpp/SupernovaEngine/src/main.cpp",
+  "file": "/home/vilkku/coding/cpp/SupernovaEngine/src/main.cpp",
+  "output": "CMakeFiles/Supernova.dir/src/main.cpp.o"
+}
+]
