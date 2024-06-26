@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSupernova.a CMakeFiles/Supernova.dir/src/core/engine.cpp.o CMakeFiles/Supernova.dir/src/graphics/graphics.cpp.o CMakeFiles/Supernova.dir/src/main.cpp.o
+/usr/bin/ranlib libSupernova.a
